@@ -1,0 +1,26 @@
+# 通用
+*.swp
+.DS_Store
+Thumbs.db
+*~
+
+# KiCad
+*.kicad_pcb-bak
+*-backups/
+_fab/
+_fabrication/
+gerber/
+*.gbr
+*.pos
+*.rpt
+
+# 固件构建产物
+build/
+dist/
+*.elf
+*.hex
+*.bin
+*.o
+
+# 文档临时文件
+*.log
